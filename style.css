@@ -3,32 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
-  
+
 body {
   background-color: #fff;
 }
-  
+
 header {
   background-color: #3c3a39;
   font-family: 'Roboto', sans-serif;
 }
-  
+
 nav {
   display: flex;
   justify-content: space-between;
   padding: 18px 24px 18px 36px;
 }
-  
+
 .fa-bars {
   color: white;
 }
-  
+
 a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-  
+
 .content {
   background-color: #1c1a19;
   padding-left: 2%;
@@ -37,7 +37,7 @@ a {
   background-size: initial;
   background-position: bottom right;
 }
-  
+
 h1 {
   width: 327px;
   height: 124px;
@@ -51,7 +51,7 @@ h1 {
   padding: 120px 24px 120px 24px;
   text-align: left;
 }
-  
+
 h2 {
   width: 327px;
   height: 27px;
@@ -66,8 +66,8 @@ h2 {
   padding: 120px 24px 16px 24px;
   text-align: left;
 }
-  
-.initp{
+
+.initp {
   width: 327px;
   height: 123px;
   font-family: 'Poppins', sans-serif;
@@ -79,22 +79,22 @@ h2 {
   padding: 12px 24px 172px 24px;
   text-align: left;
 }
-  
-.icontag{
+
+.icontag {
   color: #fff;
   padding: 5px 1px 130px 21px;
   display: block;
 }
-  
+
 .icon-bar {
   display: flex;
   padding-top: 10px;
 }
-  
+
 .icon-bar li {
   display: inline-block;
 }
-  
+
 ul {
   display: flex;
   list-style: none;
@@ -103,7 +103,6 @@ ul {
 
 .wrappertitle {
   height: 83px;
-  padding: 0px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -111,22 +110,22 @@ ul {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #1C1A19;
+  color: #1c1a19;
   border-bottom: solid 1px gray;
   padding-bottom: 50px;
-  padding-top: 120px ;
+  padding-top: 120px;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 24px;
+  padding: 1px 24px;
   gap: 24px;
   width: 375px;
 }
 
-.placeholder1{
+.placeholder1 {
   width: 327px;
   padding-top: 60px;
 }
@@ -134,14 +133,14 @@ ul {
 .wrappersubtitle {
   width: 327px;
   height: 36px;
-  font-family: 'Crete Round',sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #091E42;
+  color: #091e42;
   padding-top: 40px;
 }
 
@@ -153,21 +152,20 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
   padding-top: 12px;
   text-align: left;
 }
 
 .tags {
- display: flex;
- flex-direction: row;
- align-items: center;
- padding: 0px;
- gap: 12px;
- width: 297px;
- height: 40px;
- padding-left: 15px;
- padding-bottom: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 297px;
+  height: 40px;
+  padding-left: 15px;
+  padding-bottom: 22px;
 }
 
 .tag {
@@ -178,10 +176,10 @@ ul {
   padding: 10px 12px;
   width: 49px;
   height: 40px;
-  background: #FFFFFF;
-  border: 1px solid #8993A4;
+  background: #fff;
+  border: 1px solid #8993a4;
   color: black;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -196,10 +194,10 @@ ul {
   padding: 10px 12px;
   width: 95px;
   height: 40px;
-  background: #FFF;
-  border: 1px solid #8993A4;
+  background: #fff;
+  border: 1px solid #8993a4;
   color: black;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -213,9 +211,9 @@ ul {
   padding: 12px;
   gap: 10px;
   width: 124px;
-  background: #FF6B00;
+  background: #ff6b00;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -223,9 +221,9 @@ ul {
 }
 
 .firstproject {
-display: flex;
-flex-direction: column;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .wrapper2 {
@@ -247,54 +245,54 @@ justify-content: center;
   line-height: 44px;
   width: 295px;
   text-align: left;
-  color: #FFF;
+  color: #fff;
   padding-left: 16px;
 }
 
 .secondp {
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   width: 295px;
   text-align: left;
-  color: #FFF;
+  color: #fff;
   padding-left: 12px;
   padding-bottom: 20px;
 }
 
-.tagwrapper{
+.tagwrapper {
   display: flex;
   align-items: center;
   padding: 10px 30px 10px 12px;
   width: 56px;
   background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFF;
+  color: #fff;
 }
 
-.tag2wrapper{
+.tag2wrapper {
   display: flex;
   align-items: center;
   padding: 10px 12px;
   width: 95px;
   background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFF;
+  color: #fff;
 }
 
-.tag3wrapper{
+.tag3wrapper {
   width: 327px;
-  background: #FF6B00;
+  background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -306,46 +304,45 @@ justify-content: center;
   padding: 12px;
 }
 
-.wrapper5{
+.wrapper5 {
   display: flex;
   flex-direction: column;
   margin: 24px;
   text-align: left;
 }
 
-.aboutme{
+.aboutme {
   background-color: #1c1a19;
   background-image: url(./img/aboutme.png);
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: initial; 
-
+  background-size: initial;
 }
 
-.aboutmeh3{
+.aboutmeh3 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
-  color: #FF6B00;
+  color: #ff6b00;
   padding: 120px 24px 24px 24px;
 }
 
 .aboutmep {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
   padding: 24px;
   text-align: left;
   width: 327px;
   padding-bottom: 24px;
 }
 
-.getmyresume2{
+.getmyresume2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -354,51 +351,49 @@ justify-content: center;
   width: 161px;
   background-color: #ff6b00;
   margin: 24px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  align-items: center;
   text-align: center;
   margin-bottom: 200px;
 }
 
-.lastlist{
+.lastlist {
   background-color: #1c1a19;
   background-image: url(./img/aboutme\ line.png);
   background-position: top center;
   background-repeat: no-repeat;
 }
 
-.list1{
-  font-family: 'InaiMathi';
+.list1 {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   flex-direction: column;
   padding-bottom: 45px;
   padding-top: 137px;
 }
 
 .firstlist {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
   text-align: left;
-  color: #FFF;
+  color: #fff;
   padding: 14px;
-
 }
 
 .list2 {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -410,8 +405,8 @@ justify-content: center;
   padding-bottom: 45px;
 }
 
-.list3{
-  font-family: 'Inter';
+.list3 {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -423,11 +418,11 @@ justify-content: center;
   padding-bottom: 45px;
 }
 
-.footer{
-  background-color: #FFF;
+.footer {
+  background-color: #fff;
 }
 
-.footerh3{
+.footerh3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -477,15 +472,6 @@ justify-content: center;
   margin-bottom: 10px;
 }
 
-.form-container input::placeholder {
-  font-family: 'Inter', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #979493;
-}
-
 .form-comment {
   background-color: #fbf8f7;
   width: 100%;
@@ -494,7 +480,7 @@ justify-content: center;
 }
 
 .form-comment::placeholder {
-  font-family: 'Inter', serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -519,12 +505,11 @@ justify-content: center;
   font-size: 17px;
   color: #fff;
   background-color: #ff6b00;
-  padding: 12px 12px 12px 12px;
   border: none;
 }
 
-.icontag2{
-  color: #505F79;
+.icontag2 {
+  color: #505f79;
   padding: 150px 1px 130px 21px;
   display: block;
   align-items: center;
