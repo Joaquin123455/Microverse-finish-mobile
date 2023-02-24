@@ -67,7 +67,7 @@ h2 {
   text-align: left;
 }
   
-p {
+.initp{
   width: 327px;
   height: 123px;
   font-family: 'Poppins', sans-serif;
@@ -80,7 +80,7 @@ p {
   text-align: left;
 }
   
-li {
+.icontag{
   color: #fff;
   padding: 5px 1px 130px 21px;
   display: block;
@@ -154,7 +154,7 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: #091E42;
-  padding-top: 30px;
+  padding-top: 12px;
   text-align: left;
 }
 
@@ -166,6 +166,8 @@ ul {
  gap: 12px;
  width: 297px;
  height: 40px;
+ padding-left: 15px;
+ padding-bottom: 22px;
 }
 
 .tag {
@@ -220,13 +222,6 @@ ul {
   line-height: 24px;
 }
 
-.wrapper2 {
-  display: flex;
-  padding-top: 30px;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .firstproject {
 display: flex;
 flex-direction: column;
@@ -238,7 +233,10 @@ justify-content: center;
   background-repeat: no-repeat;
   background-size: initial;
   width: 327px;
-  height: 386px;
+  display: flex;
+  padding-top: 84px;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .wrappertitle2 {
@@ -248,19 +246,22 @@ justify-content: center;
   font-size: 32px;
   line-height: 44px;
   width: 295px;
-  text-align: center;
+  text-align: left;
   color: #FFF;
+  padding-left: 16px;
 }
 
-.secondp{
-  font-family: 'Inter';
+.secondp {
+  font-family: 'Inter',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   width: 295px;
   text-align: left;
-  padding: 12px 40px 12px 40px;
+  color: #FFF;
+  padding-left: 12px;
+  padding-bottom: 20px;
 }
 
 .tagwrapper{
@@ -274,6 +275,7 @@ justify-content: center;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  color: #FFF;
 }
 
 .tag2wrapper{
@@ -287,17 +289,244 @@ justify-content: center;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  color: #FFF;
 }
 
 .tag3wrapper{
   width: 327px;
   background: #FF6B00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+  height: 48px;
+  padding: 12px;
+}
+
+.wrapper5{
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+  text-align: left;
+}
+
+.aboutme{
+  background-color: #1c1a19;
+  background-image: url(./img/aboutme.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: initial; 
+
+}
+
+.aboutmeh3{
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  color: #FF6B00;
+  padding: 120px 24px 24px 24px;
+}
+
+.aboutmep {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+  padding: 24px;
+  text-align: left;
+  width: 327px;
+  padding-bottom: 24px;
+}
+
+.getmyresume2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  background-color: #ff6b00;
+  margin: 24px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  text-align: left;
-  margin: 0;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 200px;
 }
 
+.lastlist{
+  background-color: #1c1a19;
+  background-image: url(./img/aboutme\ line.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.list1{
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  flex-direction: column;
+  padding-bottom: 45px;
+  padding-top: 137px;
+}
+
+.firstlist {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: left;
+  color: #FFF;
+  padding: 14px;
+
+}
+
+.list2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  padding-bottom: 45px;
+}
+
+.list3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  padding-bottom: 45px;
+}
+
+.footer{
+  background-color: #FFF;
+}
+
+.footerh3{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin-left: 24px;
+  margin-right: 24px;
+  max-width: 400px;
+  padding-top: 120px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 58px 0 0 24px;
+  max-width: 300px;
+  height: 330px;
+}
+
+.form-container input {
+  width: 100%;
+  height: 48px;
+}
+
+.form-name {
+  border: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.form-container input::placeholder {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+.form-email {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  margin-bottom: 10px;
+}
+
+.form-container input::placeholder {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+.form-comment {
+  background-color: #fbf8f7;
+  width: 100%;
+  height: 114px;
+  margin-bottom: 24px;
+}
+
+.form-comment::placeholder {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3c3a39;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  background-color: #ff6b00;
+  padding: 12px 12px 12px 12px;
+  border: none;
+}
+
+.icontag2{
+  color: #505F79;
+  padding: 150px 1px 130px 21px;
+  display: block;
+  align-items: center;
+  margin-left: 25px;
+}
