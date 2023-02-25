@@ -515,3 +515,13 @@ ul {
   align-items: center;
   margin-left: 25px;
 }
+
+.bigwrapper {
+  display: grid;
+}
+
+.img-lang-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
