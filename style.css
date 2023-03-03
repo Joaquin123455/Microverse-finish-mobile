@@ -506,6 +506,7 @@ ul {
   color: #fff;
   background-color: #ff6b00;
   border: none;
+  transform: scale(1.5);
 }
 
 .icontag2 {
@@ -546,4 +547,6 @@ ul {
   color: #f55800;
   border: none;
   background-color: #fff5e1;
+  transform: translate(3ch, 3mm);
+  transform: rotate(12deg);
 }
