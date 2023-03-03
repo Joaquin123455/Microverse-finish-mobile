@@ -506,11 +506,11 @@ ul {
   color: #fff;
   background-color: #ff6b00;
   border: none;
+  
 }
 
 .icontag2 {
   color: #505f79;
-  padding: 150px 1px 130px 21px;
   display: block;
   align-items: center;
   margin-left: 25px;
@@ -524,4 +524,21 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.extra-bar {
+  align-items: center;
+  width: 375px;
+  height: 72px;
+  text-align: center;
+  gap: 1px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.iconsss{
+  background-image: url(./img/Rectangle\ 42Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: middle center;
+  margin-left: 15px;
 }

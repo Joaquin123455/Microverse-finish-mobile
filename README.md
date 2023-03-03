@@ -76,10 +76,15 @@ Clone this repository to your desired folder:
 
 
 👤 **Joaquin Calle Aranzolo**
+👤 **Asad Misrani**
 
 - GitHub: [Joaquin123455](https://github.com/Joaquin123455)
+- GitHub: [@asadmisrani](https://github.com/asadmisrani)
 - Twitter: [@CalleJoaquinn](https://twitter.com/CalleJoaquinn)
+- Twitter: [@lizalilia1](https://twitter.com/lizalilia1)
 - LinkedIn: [Joaquin Calle Aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
+- LinkedIn: [Asad Shareef](https://www.linkedin.com/in/asad-shareef-b73665233/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
