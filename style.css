@@ -542,8 +542,8 @@ ul {
   margin-left: 15px;
 }
 
-.btn:hover{
+.btn:hover {
   color: #f55800;
-  border: 1px solid #f55800;
+  border: none;
   background-color: #fff5e1;
 }
