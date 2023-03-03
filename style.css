@@ -541,3 +541,9 @@ ul {
   background-position: middle center;
   margin-left: 15px;
 }
+
+.btn:hover{
+  color: #f55800;
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+}
